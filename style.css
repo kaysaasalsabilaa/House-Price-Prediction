@@ -1,0 +1,56 @@
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.glass-card h2,
+.glass-card h3 {
+    margin-top: 0;
+}
+
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 14px;
+}
+
+.stTabs [data-baseweb="tab-panel"] {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.stTabs [data-baseweb="tab"] {
+  color: rgba(255,255,255,0.85) !important;
+  font-weight: 600;
+}
+
+.stTabs [aria-selected="true"] {
+  color: #ffffff !important;
+}
+
+.stTabs [data-baseweb="tab-highlight"] {
+  background-color: #00BFA6 !important;
+}
+
+.stTabs [data-baseweb="tab-panel"] {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
